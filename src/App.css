@@ -1,0 +1,44 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+main {
+  
+  background-image: url('/public/bg3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(234, 232, 170);
+  font-size: 90px;
+}
+
+#icon {
+  top: 200%;
+  left: 200%;
+  transform: translate(-50%, -50%);
+  margin-right: -20px;
+  margin-top: -1000px; 
+  margin-left: 10px; 
+  margin-bottom: 140px;
+  
+}
+
+#judul {
+  color: rgb(95, 210, 69);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
